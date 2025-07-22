@@ -16,4 +16,6 @@ function getUser() {
 }
 
 const user = getUser()
-const n55 = user.name
+if (user) {
+  const n55 = user.name
+}
